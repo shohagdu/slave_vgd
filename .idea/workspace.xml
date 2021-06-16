@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38515b91-9d42-4b1d-93cb-9e79598d02c2" name="Default Changelist" comment="" />
+    <list default="true" id="38515b91-9d42-4b1d-93cb-9e79598d02c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VGDdataProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/VGDdataProcess.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +12,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1r63iDGJZDgGhRJ5yY5nP9AS2vD" />
   <component name="ProjectViewState">
@@ -30,7 +36,11 @@
       <option name="presentableId" value="Default" />
       <updated>1618282836863</updated>
       <workItem from="1618282837989" duration="14475000" />
-      <workItem from="1619178599646" duration="2756000" />
+      <workItem from="1619178599646" duration="3623000" />
+      <workItem from="1619288268516" duration="1828000" />
+      <workItem from="1620278262644" duration="1829000" />
+      <workItem from="1623860076499" duration="116000" />
+      <workItem from="1623866059851" duration="433000" />
     </task>
     <servers />
   </component>
@@ -38,10 +48,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1618405964694">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1623860097831">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618405964694" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623860097831" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1618384220005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

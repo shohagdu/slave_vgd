@@ -89,14 +89,27 @@ if(empty($setupInfo['union_url'])){
                     $('#showInfo').html('');
                     var scntDynamicDeptProgram = $('#showInfo');
                     $.each(data, function (index, Obj) {
-                        $(`<tr>
-                                    <td>${p_sl} </td>
-                                    <td>${Obj.applicant_nid}</td>
-                                    <td>${Obj.applicant_nid}</td>
-                                    <td>${Obj.name}</td>
-                                    <td>${Obj.father_name}</td>
-                                    <td>${Obj.upload_status}</td>
-                                </tr>`).appendTo(scntDynamicDeptProgram);
+                        console.log(Obj.vgd_card_no);
+                        if(Obj.vgd_card_no!=null) {
+                            $(`<tr>
+                                <td>${p_sl} </td>
+                                <td>${Obj.vgd_card_no}</td>
+                                <td>${Obj.applicant_nid}</td>
+                                <td>${Obj.name}</td>
+                                <td>${Obj.gurdian_name}</td>
+                                <td>${Obj.upload_status}</td>
+                            </tr>`).appendTo(scntDynamicDeptProgram);
+
+                        }else{
+                            $(`<tr>
+                                <td>${p_sl} </td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>${Obj.upload_status}</td>
+                            </tr>`).appendTo(scntDynamicDeptProgram);
+                        }
                         p_sl++;
                     })
                 }
